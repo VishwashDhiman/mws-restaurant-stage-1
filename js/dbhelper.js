@@ -172,7 +172,7 @@ class DBHelper {
 
 // Service Worker Register.
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('./serviceWorker.js')
+  navigator.serviceWorker.register('./ServiceWorker.js')
     .then(function (registration) {
       console.log(registration);
     })
